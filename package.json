@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://richard929.github.io",
+  "homepage": "https://richard929.github.io/portfolio",
   "dependencies": {
     "axios": "^0.19.2",
     "formik": "^2.1.5",
