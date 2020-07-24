@@ -1,12 +1,13 @@
 import React from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
 import VisibilitySensor from "react-visibility-sensor";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+
+import "react-circular-progressbar/dist/styles.css";
 
 const Skills = (props) => {
   const data = props.portfolioData;
-  let skillList;
-  skillList = data.skills.map((s, i) => (
+
+  const skillList = data.skills.map((s, i) => (
     <div className="col-2" key={i}>
       <div className="site-skill">
         <div className="site-skill__canvas-wrapper">

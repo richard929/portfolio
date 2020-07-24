@@ -2,8 +2,8 @@ import React from "react";
 
 const Timeline = (props) => {
   const data = props.portfolioData;
-  let expList;
-  expList = data.workExp.map((exp, i) => (
+
+  const expList = data.workExp.map((exp, i) => (
     <div className="stepper__list" key={i}>
       <div className="stepper__item">
         <div className="stepper__step">
@@ -23,6 +23,7 @@ const Timeline = (props) => {
       </div>
     </div>
   ));
+
   return (
     <section className="site-section  site-section--with-background" id="work">
       <div className="container">

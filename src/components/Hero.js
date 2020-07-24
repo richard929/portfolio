@@ -1,7 +1,8 @@
 import React from "react";
-import profileImage from "../assets/img/profile.png";
 import { Link } from "react-scroll";
 import Particles from "react-particles-js";
+
+import profileImage from "../assets/img/profile.png";
 
 const Hero = (props) => {
   const data = props.portfolioData;
