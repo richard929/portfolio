@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="site-social">
         <div className="site-social__list">
           <a
-            href="https://www.linkedin.com/in/richard-zhan-0a3a211a0/"
+            href="https://www.linkedin.com/in/richard-zhan-a936a11b0/"
             className="site-social__link"
           >
             <svg
