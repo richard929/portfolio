@@ -156,21 +156,6 @@ class Header extends Component {
             <li className="site-nav__list">
               <Link
                 onClick={this.onHandleClickLink}
-                href="#skills"
-                className="site-nav__link"
-                activeClass="site-nav__link--active"
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-30}
-                duration={500}
-              >
-                Skills
-              </Link>
-            </li>
-            <li className="site-nav__list">
-              <Link
-                onClick={this.onHandleClickLink}
                 href="#work"
                 className="site-nav__link"
                 activeClass="site-nav__link--active"

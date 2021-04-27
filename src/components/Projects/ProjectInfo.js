@@ -6,6 +6,8 @@ const ProjectInfo = ({
   description,
   technology,
   codeLink,
+  imageUrl,
+  videoUrl,
 }) => {
   return (
     <div className="project-info">
@@ -15,11 +17,26 @@ const ProjectInfo = ({
         {technology.length > 0 && (
           <div>
             <h2 className="project-info__heading"> Technology used </h2>
-            <ul className="project-info__tech">
-              {technology.map((t, i) => {
-                return <li> {t} </li>;
-              })}
-            </ul>
+            <div className="project-info__body">
+              <ul className="project-info__tech">
+                {technology.map((t, i) => {
+                  return <li> {t} </li>;
+                })}
+              </ul>
+              {videoUrl ? (
+                <video
+                  controls
+                  loop
+                  playsInline
+                  muted
+                  className="project-info__video"
+                >
+                  <source src={videoUrl} />
+                </video>
+              ) : (
+                <img className="project-info__image" src={imageUrl} alt={description} />
+              )}
+            </div>
           </div>
         )}
         <div className="project-info__action">

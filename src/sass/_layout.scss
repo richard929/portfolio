@@ -57,7 +57,10 @@
   }
 
   &__logo {
-    width: 4rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    object-fit: cover;
   }
 
   &__spacer {
@@ -406,10 +409,28 @@
     font-weight: $bold;
   }
 
+  &__body {
+    display: flex;
+    flex-direction: row;
+  }
+
   &__tech {
+    flex: 1 1 0%;
     li {
       font-size: 1.6rem;
     }
+  }
+
+  &__video {
+    flex: 1 1 0%;
+    width: 320px;
+  }
+
+  &__image {
+    flex: 1 1 0%;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
   }
 
   &__action {

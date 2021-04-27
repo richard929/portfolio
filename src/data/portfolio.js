@@ -8,7 +8,8 @@ const portfolioData = {
     {
       id: 0,
       title: "Surreal Events",
-      imageUrl: "img/portfolio/Surreal Events.mp4",
+      imageUrl: "img/portfolio/Surreal Events.png",
+      videoUrl: "img/portfolio/Surreal Events.mp4",
       link: "https://www.surrealevents.com",
       codeLink: "",
       description:
@@ -28,7 +29,8 @@ const portfolioData = {
     {
       id: 2,
       title: "Theatre Engine",
-      imageUrl: "img/portfolio/Theatre Engine.mp4",
+      imageUrl: "img/portfolio/Theater Engine.png",
+      videoUrl: "img/portfolio/Theater Engine.mp4",
       link: "https://www.theaterengine.com/",
       codeLink: "",
       description:
@@ -38,7 +40,8 @@ const portfolioData = {
     {
       id: 3,
       title: "University CoWork",
-      imageUrl: "img/portfolio/University Cowork.mp4",
+      imageUrl: "img/portfolio/University Cowork.png",
+      videoUrl: "img/portfolio/University Cowork.mp4",
       link: "http://universitycowork.herokuapp.com/",
       codeLink: "",
       description:
@@ -147,7 +150,7 @@ const portfolioData = {
       date: "Mar 2019- Current",
       company: "Next Idea Tech",
       description:
-        "Lead Developer role in several projects. Programmed applications and tools using Node.js, TypeScript, and React.js object-oriented languages with goals for code abstraction, stability and reuse.",
+        "Built web/mobile applications using Node.js, React.js, and TypeScript with goals for code abstraction, stability and reuse.",
     },
     {
       title: "Full-Stack Developer",

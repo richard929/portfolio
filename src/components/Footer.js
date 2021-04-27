@@ -20,10 +20,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="site-social__list">
-          <a
-            href="https://github.com/richard929"
-            className="site-social__link"
-          >
+          <a href="https://github.com/richard929" className="site-social__link">
             <svg
               viewBox="0 0 512 512"
               preserveAspectRatio="xMidYMid meet"
@@ -35,22 +32,30 @@ const Footer = () => {
         </div>
         <div className="site-social__list">
           <a
-            href="https://codepen.io/richard929"
+            href="https://stackoverflow.com/users/12233187/richard-zhan"
             className="site-social__link"
           >
             <svg
-              viewBox="0 0 512 512"
-              preserveAspectRatio="xMidYMid meet"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 118"
               className="site-social__icon"
             >
-              <path d="M427 201.9c-0.6-4.2-2.9-8-6.4-10.3L264.2 87.3c-4.9-3.3-11.4-3.3-16.3 0L91.4 191.6c-4 2.7-6.5 7.4-6.5 12.2v104.3c0 4.8 2.5 9.6 6.5 12.2l156.4 104.3c4.9 3.3 11.4 3.3 16.3 0L420.6 320.4c4-2.6 6.6-7.4 6.6-12.2V203.9C427.1 203.2 427.1 202.6 427 201.9 427 201.7 427.1 202.6 427 201.9zM270.7 127.1l115.2 76.8 -51.5 34.4 -63.8-42.7V127.1zM241.3 127.1v68.6l-63.8 42.7 -51.5-34.4L241.3 127.1zM114.3 231.4l36.8 24.6 -36.8 24.6V231.4zM241.3 384.9L126.1 308.1l51.5-34.4 63.8 42.6V384.9zM256 290.8l-52-34.8 52-34.8 52 34.8L256 290.8zM270.7 384.9V316.3l63.8-42.6 51.5 34.4L270.7 384.9zM397.7 280.6l-36.8-24.6 36.8-24.6V280.6z"></path>
+              <polygon
+                points="84.072,107.351 84.072,75.8 94.588,75.8 94.588,117.869 0,117.869 0,75.8 10.516,75.8 
+    10.516,107.351 "
+              />
+              <path
+                d="M22.089,72.898l51.458,10.815l2.163-10.292L24.252,62.606L22.089,72.898z M28.897,48.259l47.666,22.199
+    l4.44-9.533L33.337,38.726L28.897,48.259z M42.088,24.874l40.405,33.65l6.73-8.081l-40.405-33.65L42.088,24.874z M68.171,0
+    l-8.438,6.276l31.381,42.191l8.438-6.276L68.171,0z M21.044,96.833l52.582,0V86.316l-52.582,0V96.833z"
+              />
             </svg>
           </a>
         </div>
       </div>
       <div className="site-footer__copyright">
-        &nbsp;
-        Copyright &copy; {new Date().getFullYear()} All rights reserved
+        &nbsp; Copyright &copy; {new Date().getFullYear()} All rights reserved
       </div>
     </footer>
   );
