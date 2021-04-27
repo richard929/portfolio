@@ -72,7 +72,6 @@ class App extends Component {
         <main className="site-main" id="home">
           <Hero portfolioData={portfolioData} id="home" />
           <Projects>{projectList}</Projects>
-          <Skills portfolioData={portfolioData} />
           <Timeline portfolioData={portfolioData} />
           <Contact />
           {isOpenModal && <Modal>{projectItem}</Modal>}

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="site-social">
         <div className="site-social__list">
           <a
-            href="https://www.linkedin.com/in/richard-zhan/"
+            href="https://www.linkedin.com/in/richard-zh/"
             className="site-social__link"
           >
             <svg
@@ -49,8 +49,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="site-footer__copyright">
-        {" "}
-        Copyright &copy; 2020 All rights reserved{" "}
+        &nbsp;
+        Copyright &copy; {new Date().getFullYear()} All rights reserved
       </div>
     </footer>
   );
