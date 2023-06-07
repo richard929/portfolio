@@ -2,8 +2,9 @@ const portfolioData = {
   logo: "img/profile.png",
   logoWhite: "img/profile.png",
   name: "Richard Zhan",
-  role: "Senior React.js Developer",
-  intro: "with strong automation development skills. Highly skilled in React.js with a proven history of best-in-class development.",
+  role: "Senior Software Engineer",
+  intro:
+    "highly skilled in React.js with a proven history of best-in-class development.",
   projects: [
     {
       id: 0,
@@ -14,7 +15,15 @@ const portfolioData = {
       codeLink: "",
       description:
         "The next-generation video conferencing platform with gamific scenes.",
-      technology: ["React", "Redux", "WebSocket", "WebRTC", "Agora.io", "Twilio", "Fluent UI"],
+      technology: [
+        "React",
+        "Redux",
+        "WebSocket",
+        "WebRTC",
+        "Agora.io",
+        "Twilio",
+        "Fluent UI",
+      ],
     },
     {
       id: 1,
@@ -22,9 +31,15 @@ const portfolioData = {
       imageUrl: "img/portfolio/Talking Heads.png",
       link: "https://www.tokkingheads.com",
       codeLink: "",
-      description:
-        "AI-powered talking heads generator.",
-      technology: ["React", "Redux", "Typescript", "Material-UI", "Firebase", "Stripe"],
+      description: "AI-powered talking heads generator.",
+      technology: [
+        "React",
+        "Redux",
+        "Typescript",
+        "Material-UI",
+        "Firebase",
+        "Stripe",
+      ],
     },
     {
       id: 2,
@@ -33,8 +48,7 @@ const portfolioData = {
       videoUrl: "img/portfolio/Theater Engine.mp4",
       link: "https://www.theaterengine.com/",
       codeLink: "",
-      description:
-        "Online ticketing platform for artists.",
+      description: "Online ticketing platform for artists.",
       technology: ["React", "Redux", "Bootstrap"],
     },
     {
@@ -44,8 +58,7 @@ const portfolioData = {
       videoUrl: "img/portfolio/University Cowork.mp4",
       link: "http://universitycowork.herokuapp.com/",
       codeLink: "",
-      description:
-        "AI-powered matchmaking for video meetings",
+      description: "AI-powered matchmaking for video meetings",
       technology: ["React", "Redux", "Material-UI"],
     },
     {
@@ -54,8 +67,7 @@ const portfolioData = {
       imageUrl: "img/portfolio/Carstens.png",
       link: "http://carstens.herokuapp.com/",
       codeLink: "",
-      description:
-        "Patents Report Generator",
+      description: "Patents Report Generator",
       technology: ["React", "Redux", "Bootstrap"],
     },
     {
@@ -66,12 +78,7 @@ const portfolioData = {
       codeLink: "",
       description:
         "This is an online voting platform which has millions of election data records.",
-      technology: [
-        "React.js",
-        "Sentry",
-        "Chai",
-        "Jasmine",
-      ],
+      technology: ["React.js", "Sentry", "Chai", "Jasmine"],
     },
     {
       id: 6,
@@ -89,8 +96,7 @@ const portfolioData = {
       imageUrl: "img/portfolio/Zerto.png",
       link: "https://www.zerto.com/",
       codeLink: "",
-      description:
-        "Zerto Labs management portal",
+      description: "Zerto Labs management portal",
       technology: ["React.js", "AWS Amplify", "AWS Cognito", "AWS S3"],
     },
     {
@@ -109,45 +115,21 @@ const portfolioData = {
       imageUrl: "img/portfolio/Coherent DMS.png",
       link: "",
       codeLink: "",
-      description:
-        "Data Management Portal for Coherent",
+      description: "Data Management Portal for Coherent",
       technology: ["React", "React Admin", "Material UI"],
-    },
-  ],
-  skills: [
-    {
-      name: "HTML/CSS",
-      percentage: 99,
-    },
-    {
-      name: "Javascript",
-      percentage: 99,
-    },
-    {
-      name: "Node.js",
-      percentage: 95,
-    },
-    {
-      name: "Python",
-      percentage: 90,
-    },
-    {
-      name: "React",
-      percentage: 90,
-    },
-    {
-      name: "Angular",
-      percentage: 90,
-    },
-    {
-      name: "Amazon Web Services",
-      percentage: 80,
     },
   ],
   workExp: [
     {
-      title: "Software Engineer",
-      date: "Mar 2019- Current",
+      title: "Senior Software Engineer",
+      date: "Dec 2021- Current",
+      company: "EvolutionIQ",
+      description:
+        "Created the world's first fully AI-driven claims guidance platform for the most sophisticated insurance carriers.",
+    },
+    {
+      title: "Lead Frontend Developer",
+      date: "Jul 2019- Sep 2021",
       company: "Next Idea Tech",
       description:
         "Built web/mobile applications using Node.js, React.js, and TypeScript with goals for code abstraction, stability and reuse.",

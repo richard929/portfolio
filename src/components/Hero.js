@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 
 import profileImage from "../assets/img/profile.png";
 
